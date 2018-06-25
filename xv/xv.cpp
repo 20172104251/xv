@@ -29,8 +29,9 @@ int main()
 {
 	CTeet * p;
 	CXeet o2;
-	p = 02;
+	p = &o2;
 	p->display();
+	p->CTeet::display();
     return 0;
 }
 
